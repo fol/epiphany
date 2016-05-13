@@ -124,6 +124,7 @@ RESOURCE_FILES = \
 	resources/passwords-dialog.ui		  \
 	resources/prefs-dialog.ui		  \
 	resources/prefs-lang-dialog.ui		  \
+	resources/gtk/menus.ui			  \
 	$(NULL)
 
 epiphany-resources.c: epiphany.gresource.xml $(RESOURCE_FILES)
